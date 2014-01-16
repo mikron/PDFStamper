@@ -1,0 +1,30 @@
+C:\Documents and Settings\Armen\Рабочий стол\PDF\PDFStamper\PDFStamper\bin\Debug\PDFStamper.exe
+C:\Documents and Settings\Armen\Рабочий стол\PDF\PDFStamper\PDFStamper\bin\Debug\PDFStamper.pdb
+C:\Documents and Settings\Armen\Рабочий стол\PDF\PDFStamper\PDFStamper\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Armen\Рабочий стол\PDF\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.PDFStamper.resources
+C:\Documents and Settings\Armen\Рабочий стол\PDF\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.Properties.Resources.resources
+C:\Documents and Settings\Armen\Рабочий стол\PDF\PDFStamper\PDFStamper\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Armen\Рабочий стол\PDF\PDFStamper\PDFStamper\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Armen\Рабочий стол\PDF\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.exe
+C:\Documents and Settings\Armen\Рабочий стол\PDF\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.pdb
+C:\Documents and Settings\Armen\Рабочий стол\PDF\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.EnterPass.resources
+C:\Documents and Settings\Armen\Рабочий стол\eLance\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.exe
+C:\Documents and Settings\Armen\Рабочий стол\eLance\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.pdb
+C:\Documents and Settings\Armen\Рабочий стол\eLance\PDFStamper\PDFStamper\bin\Debug\PDFStamper.exe
+C:\Documents and Settings\Armen\Рабочий стол\eLance\PDFStamper\PDFStamper\bin\Debug\PDFStamper.pdb
+C:\Documents and Settings\Armen\Рабочий стол\eLance\PDFStamper\PDFStamper\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Armen\Рабочий стол\eLance\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.EnterPass.resources
+C:\Documents and Settings\Armen\Рабочий стол\eLance\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.PDFStamper.resources
+C:\Documents and Settings\Armen\Рабочий стол\eLance\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.Properties.Resources.resources
+C:\Documents and Settings\Armen\Рабочий стол\eLance\PDFStamper\PDFStamper\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Armen\Рабочий стол\eLance\PDFStamper\PDFStamper\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Davit\Desktop\PDFStamper\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.exe
+C:\Documents and Settings\Davit\Desktop\PDFStamper\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.pdb
+C:\Documents and Settings\Davit\Desktop\PDFStamper\PDFStamper\PDFStamper\bin\Debug\PDFStamper.exe
+C:\Documents and Settings\Davit\Desktop\PDFStamper\PDFStamper\PDFStamper\bin\Debug\PDFStamper.pdb
+C:\Documents and Settings\Davit\Desktop\PDFStamper\PDFStamper\PDFStamper\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Davit\Desktop\PDFStamper\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.EnterPass.resources
+C:\Documents and Settings\Davit\Desktop\PDFStamper\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.PDFStamper.resources
+C:\Documents and Settings\Davit\Desktop\PDFStamper\PDFStamper\PDFStamper\obj\x86\Debug\PDFStamper.Properties.Resources.resources
+C:\Documents and Settings\Davit\Desktop\PDFStamper\PDFStamper\PDFStamper\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Davit\Desktop\PDFStamper\PDFStamper\PDFStamper\obj\x86\Debug\GenerateResource.write.1.tlog
