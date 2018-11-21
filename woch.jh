@@ -1,0 +1,137 @@
+/**
+ * The Item entity.
+ */
+entity Product {
+	/**
+	* The firstname attribute.
+	*/
+	category ProductCategory required,
+	type ProductType required,
+	created Instant required,
+	updated Instant required,
+	deleted Instant
+}
+
+/**
+ * The Item entity.
+ */
+entity Stock {
+	/**
+	* The firstname attribute.
+	*/
+	name String required,
+	created Instant required,
+	updated Instant required,
+	deleted Instant
+}
+
+/**
+ * The Item entity.
+ */
+entity StockProduct {
+	/**
+	* The firstname attribute.
+	*/
+    price BigDecimal required,
+    currency Currency required,
+    quantity Long required,
+	created Instant required,
+	updated Instant required,
+	deleted Instant
+}
+
+entity Orders {
+    vehicle  String required,
+    contact  String required,
+    description String required,
+    status OrderStatus required,
+	created Instant required,
+	updated Instant required,
+	deleted Instant
+}
+
+entity Shipping {
+    price BigDecimal required,
+    address String required,
+	created Instant required,
+	updated Instant required,
+	deleted Instant
+}
+
+entity OrderItem {
+    productCategory ProductCategory required,
+	productType ProductType required,
+    price BigDecimal required,
+	created Instant required,
+	updated Instant required,
+	deleted Instant
+}
+
+entity Checkout {
+    vehicle  String required,
+    contact  String required,
+    description String required,
+    changer String,
+    changerPrice BigDecimal,
+    changer String,
+    changerPrice BigDecimal,
+    yCable String,
+    yCablePrice BigDecimal,
+    bluetooth String,
+    bluetoothPrice BigDecimal,
+    shippingAddress String,
+    shippingPrice BigDecimal,
+}
+
+entity Balance {
+    productCategory ProductCategory required,
+	productType ProductType required,
+    amount BigDecimal required,
+    sold Long required,
+    balance Long required   
+}
+
+enum OrderStatus {
+    COMPLETED, PENDING, ARCHIVED
+}
+
+enum Currency {
+	AMD, USD, RUR, EUR
+}
+
+enum ProductCategory {
+    CHANGER, BLUETOOTH, YCABLE, CABLE, ADAPTER
+}
+
+enum ProductType {
+    BMW, BMW1, BMW2, BMW4, FORD, FORD_PP, HONDA, HONDA_BLUE, MAZ, MAZ_NEW, MB, NIS, PIONEER, TOY1, TOY2, VAG8, VAG12, UNIVERSAL
+}
+
+relationship OneToMany {
+	Stock to StockProduct{stock(name) required}
+    Product to StockProduct{product(type) required}
+    Stock to Balance{stock(name) required}
+    Orders{user(name) required} to User
+    StockProduct{user(name) required} to User
+}
+
+relationship OneToMany {
+	Orders to OrderItem{orders required}
+}
+
+relationship OneToOne {
+    Orders to Shipping
+}
+
+relationship ManyToOne {
+    OrderItem{product(type) required} to Product
+}
+
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+//angularSuffix * with mySuffix
